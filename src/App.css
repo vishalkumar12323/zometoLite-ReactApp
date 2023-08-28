@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active {
+  color: rgb(255, 196, 0) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.textArea {
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.textArea button {
   color: white;
+  position: absolute;
+  bottom: -12%;
+  right: 2%;
 }
 
-.App-link {
-  color: #61dafb;
+.button_box {
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.notes {
+  border-radius: 7px;
+  position: relative;
+  margin: 3rem 10px 0 10px !important;
+  padding: 8px 1rem !important;
+  width: 23%;
+  height: 11rem;
+}
+
+.notes:hover {
+  border: 0.7px solid rgb(161, 198, 253);
+}
+
+.title p:first-child {
+  font-size: 13px;
+  color: rgb(24, 24, 24);
+}
+
+.content p {
+  padding: 0 0 6px 0 !important;
+  font-size: 13px;
+  color: black;
+  width: 100%;
+}
+
+.deleteButton {
+  transition: all 0.3s linear;
+  display: none;
+  font-size: 1.7rem;
+  cursor: pointer;
+  color: rgb(255, 196, 0);
+  position: absolute;
+  right: 1%;
+  top: -1%;
+}
+
+.deleteButton button {
+  color: white;
+  border: none;
+  outline: none;
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+.notes:hover>.deleteButton {
+  display: block;
+}
+
+/* .footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+} */
+
+@media (max-width: 700px) {
+
+  .frist_container .input_box,
+  .textArea {
+    width: 100% !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  .notes {
+    width: 100% !important;
+    margin: 2rem 10px 0 10px !important;
   }
+
+  /* .footer {
+    width: 100%;
+    position: absolute;
+    top: auto;
+    left: auto;
+  } */
 }
