@@ -1,12 +1,12 @@
 import React from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import MainNavbar from './googleKeep/MainNavbar';
+import FoodCard from './ZometoLite/FoodCard';
 
 function App() {
+
   return (
     <>
-      <MainNavbar />
+      <FoodCard />
     </>
   );
 }
