@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zometoLite-ReactApp/static/css/main.48ea8afc.css",
+    "main.js": "/zometoLite-ReactApp/static/js/main.9ed61c43.js",
+    "static/js/787.d2a064b3.chunk.js": "/zometoLite-ReactApp/static/js/787.d2a064b3.chunk.js",
+    "index.html": "/zometoLite-ReactApp/index.html",
+    "main.48ea8afc.css.map": "/zometoLite-ReactApp/static/css/main.48ea8afc.css.map",
+    "main.9ed61c43.js.map": "/zometoLite-ReactApp/static/js/main.9ed61c43.js.map",
+    "787.d2a064b3.chunk.js.map": "/zometoLite-ReactApp/static/js/787.d2a064b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48ea8afc.css",
+    "static/js/main.9ed61c43.js"
+  ]
+}
